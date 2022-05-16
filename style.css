@@ -1,0 +1,14 @@
+.callbackText,
+.AsyncText,
+.twiceText {
+	width: 6rem;
+	height: 5.2rem;
+	border: none;
+	color: white;
+	background: violet;
+}
+.callbackText:hover,
+.AsyncText:hover,
+.twiceText:hover {
+	background: purple;
+}
