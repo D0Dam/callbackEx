@@ -1,14 +1,25 @@
 .callbackText,
 .AsyncText,
-.twiceText {
+.twiceText,
+.PromiseTextF,
+.PromiseTextS,
+.AsyncTextF,
+.AsyncTextS {
+	display: block;
+	align-items: center;
 	width: 6rem;
 	height: 5.2rem;
 	border: none;
 	color: white;
 	background: violet;
+	margin: 0.4rem;
 }
 .callbackText:hover,
 .AsyncText:hover,
-.twiceText:hover {
+.twiceText:hover,
+.PromiseTextF:hover,
+.PromiseTextS:hover,
+.AsyncTextF:hover,
+.AsyncTextS:hover {
 	background: purple;
 }
