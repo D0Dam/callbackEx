@@ -60,7 +60,7 @@ function runCheckOddReject() {
 }
 
 //Async await 사용해보기
-
+//이거 다시 고치기
 async function asyncCheckOdd(num) {
 	setTimeout(function () {
 		if (num % 2 == 0) {
@@ -72,7 +72,7 @@ async function asyncCheckOdd(num) {
 }
 
 function asyncRunCheckOddReslove() {
-	checkOdd(4).then(
+	asyncCheckOdd(4).then(
 		function (text) {
 			console.log(text);
 		},
@@ -83,7 +83,7 @@ function asyncRunCheckOddReslove() {
 }
 
 function asyncRunCheckOddReject() {
-	checkOdd(5).then(
+	asyncCheckOdd(5).then(
 		function (text) {
 			console.log(text);
 		},
